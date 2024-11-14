@@ -17,14 +17,14 @@ emailjs.sendForm("service_8te05xw","template_1mgn2sv","#contactForm","FMlBlJBSzh
 }).catch((error)=>{
      console.error("Email sending failed:",error);
 })}
-function validate(){
-    var email =document. getElementById("emailid").value;
-    var reg =/^([a-zA-Zo-9\._]+)@([a-zA-Z0-9])+.([a-z]+)$/;
-    var result=reg.test(emailid);
-    if (result==false){
-        alert("sorry invalid Email ID");
-        return false;
-    }
-    return true;
-}
+// function validate(){
+//     var email =document. getElementById("emailid").value;
+//     var reg =/^([a-zA-Zo-9\._]+)@([a-zA-Z0-9])+.([a-z]+)$/;
+//     var result=reg.test(emailid);
+//     if (result==false){
+//         alert("sorry invalid Email ID");
+//         return false;
+//     }
+//     return true;
+// }
 
